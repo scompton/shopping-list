@@ -1,0 +1,100 @@
+html, body {
+  height: 100%;
+  color: #ecf0f1;
+  font-weight: bold;
+}
+
+body {
+  background-image: url('http://realfoodrealdeals.com/wp-content/uploads/2013/03/WFM-Produce.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main {
+  position: absolute;
+  width: 600px;
+  height: auto;
+  background-color: #7f8c8d;
+  bottom: 0;
+  top: 0;
+  left: 50%;
+  margin-left: -300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#title {
+  font-size: 48px;
+  line-height: 100px;
+  background-color: #c0392b;
+}
+
+#entry {
+  margin: 10px;
+}
+
+.entryField {
+  line-height: 30px;
+  width: 520px;
+  font-size: 24px;
+}
+
+.addButton {
+  width: 36px;
+  height: 36px;
+  vertical-align: top;
+  border: none;
+  border-radius: 2px;
+  background-image: url('http://netflyr.com/files/2012/05/shopping_cart.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.items {
+  line-height: 40px;
+  font-size: 24px;
+  width: inherit;
+}
+
+.newItem {
+  text-align: left;
+  padding-left: 10px;
+}
+
+input[type=checkbox].checkbox {
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  background-color: white;
+}
+
+label {
+  margin-left: 10px;
+}
+.checked {
+  color: #bdc3c7;
+  text-decoration: line-through;
+}
+
+#remove {
+  float: right;
+}
+
+.removeButton {
+  background-image: url('https://cdn3.iconfinder.com/data/icons/softwaredemo/PNG/256x256/DeleteRed.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #7f8c8d;
+  border: none;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.check {
+  float: left;
+}
